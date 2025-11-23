@@ -11,7 +11,7 @@ from the_well.data.augmentation import Augmentation
 from the_well.data.utils import WELL_DATASETS, flatten_field_names
 from torch.utils.data import Dataset
 
-from walrus.data.inflated_dataset import (
+from .inflated_dataset import (
     BatchInflatedWellDataset,
 )
 

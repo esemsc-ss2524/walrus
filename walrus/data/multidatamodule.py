@@ -13,7 +13,7 @@ from torch.utils.data import (
 )
 from torch.utils.data._utils.collate import default_collate
 
-from walrus.data.inflated_dataset import (
+from .inflated_dataset import (
     BatchInflatedWellDataset,
 )
 
